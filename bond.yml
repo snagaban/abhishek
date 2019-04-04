@@ -1,0 +1,4 @@
+- name: network servers
+  hosts: bond
+  roles:
+    - { role: bond }

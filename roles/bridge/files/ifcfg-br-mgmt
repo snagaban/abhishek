@@ -1,0 +1,8 @@
+NAME=br-mgmt
+ DEVICE=br-mgmt
+ TYPE=Bridge
+ ONBOOT=yes
+ BOOTPROTO=none
+ IPADDR=172.0.20.204
+ PREFIX=24
+

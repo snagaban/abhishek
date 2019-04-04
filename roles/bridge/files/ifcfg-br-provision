@@ -1,0 +1,8 @@
+NAME=br-provision
+ DEVICE=br-provision
+ TYPE=Bridge
+ ONBOOT=yes
+ BOOTPROTO=none
+ IPADDR=192.0.2.204
+ PREFIX=24
+

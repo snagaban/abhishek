@@ -1,0 +1,8 @@
+DEVICE=eno3
+ONBOOT=yes
+HWADDR=e4:43:4b:5f:5c:32
+MASTER=bond0
+SLAVE=yes
+BOOTPROTO=none
+SLAVE=yes
+

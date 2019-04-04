@@ -1,0 +1,4 @@
+- name: Network servers
+  hosts: bridge
+  roles:
+    - { role: bridge }

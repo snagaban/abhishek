@@ -1,0 +1,8 @@
+NAME=br-externalapi
+ DEVICE=br-externalapi
+ TYPE=Bridge
+ ONBOOT=yes
+ BOOTPROTO=none
+ IPADDR=10.25.100.204
+ PREFIX=24
+

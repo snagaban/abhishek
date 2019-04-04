@@ -1,0 +1,8 @@
+DEVICE=bond1.1446
+ NAME=bond1.1446
+ VLAN=yes
+ BOOTPROTO=none
+ ONPARENT=yes
+ ONBOOT=yes
+ BRIDGE=br-externalapi
+

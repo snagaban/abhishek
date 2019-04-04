@@ -1,0 +1,27 @@
+- stat: path=/etc/sysconfig/network-scripts
+  register: server_exists
+
+- name: Copy ifcfg-bond1 file to the network scripts
+  copy: src=./ifcfg-bond1 dest=/etc/sysconfig/network-scripts  mode=0755
+  when: server_exists.stat.exists
+
+- name: Copy ifcfg-bond1.1446 file to the network scripts
+  copy: src=./ifcfg-bond1.1446 dest=/etc/sysconfig/network-scripts  mode=0755
+  when: server_exists.stat.exists
+
+- name: Copy ifcfg-bond1.1448  file to the network scripts
+  copy: src=./ifcfg-bond1.1448 dest=/etc/sysconfig/network-scripts  mode=0755
+  when: server_exists.stat.exists
+
+- name: Copy ifcfg-br-provision file to the network scripts
+  copy: src=./ifcfg-br-provision dest=/etc/sysconfig/network-scripts  mode=0755
+  when: server_exists.stat.exists
+
+- name: Copy ifcfg-br-externalapi file to the network scripts
+  copy: src=./ifcfg-br-externalapi dest=/etc/sysconfig/network-scripts  mode=0755
+  when: server_exists.stat.exists
+
+- name: Copy ifcfg-br-mgmt file to the network scripts
+  copy: src=./ifcfg-br-mgmt dest=/etc/sysconfig/network-scripts  mode=0755
+  when: server_exists.stat.exists
+

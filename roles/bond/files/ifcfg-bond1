@@ -1,0 +1,10 @@
+DEVICE=bond1
+NAME=bond1
+BOOTPROTO=none
+ONBOOT=yes
+IPADDR=192.0.2.104
+PREFIX=24
+USERCTL=no
+TYPE=Bond
+BONDING_OPTS="mode=4 miimon=100 downdelay=200 updelay=200"
+

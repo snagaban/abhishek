@@ -1,0 +1,9 @@
+DEVICE=bond1
+ NAME=bond1
+ BOOTPROTO=none
+ ONBOOT=yes
+ USERCTL=no
+ TYPE=Bond
+ BRIDGE=br-provision
+ BONDING_OPTS="mode=4 miimon=100 downdelay=200 updelay=200"
+
